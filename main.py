@@ -1,5 +1,8 @@
 import PyPDF2
 from gtts import gTTS
+import warnings
+
+warnings.filterwarnings('ignore', message='Unverified HTTPS request')
 
 pdfFile = open("nameorpathof.pdf" , "rb")
 
